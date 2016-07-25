@@ -7,7 +7,7 @@ A simple fileserver which runs on top of Github pages
 ```bash
 git clone https://github.com/username/username.github.io
 ```
-- Clone ghpages-fileserver
+- Clone ghpages-fileserver into your github-pages folder
 ```bash
 git clone https://github.com/Karlheinzniebuhr/ghpages-fileserver username.github.io
 cd username.github.io
