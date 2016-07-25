@@ -21,3 +21,6 @@ jekyll serve
 ## Add content to your server
 - Just put your stuff inside the /resources/ folder and commit & push
 - Open your page at https://username.github.io
+
+## Important
+Github will complain if you host binaries and/or very large files. If you upload Binaries compress (Zip) them first and try to not abuse with file size. 
