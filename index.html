@@ -1,0 +1,48 @@
+---
+
+---
+<html>
+<head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<h1 id="path"></h1>
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Last modified</th>
+  </tr>
+        {% for res in site.static_files %}
+          {% if res.path contains 'resources' %}
+            <tr>
+              <td><a class="post-link" href="{{ res.path | prepend: site.baseurl }}">{{ res.path | remove:'/resources/' }}</a></td>
+              <td>{{ res.modified_time | date: "%-d %b, %Y" }}</td>
+            </tr>
+          {% endif %}
+        {% endfor %}
+</table>
+Jekyll fileserver v1.0
+© Karlheinz Niebuhr
+
+</body>
+
+<script>
+document.getElementById('path').innerHTML = "Index of " + window.location.pathname;
+</script>
+</html>
