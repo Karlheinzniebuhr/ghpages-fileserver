@@ -10,13 +10,17 @@ A simple fileserver which runs on top of Github pages
 ```bash
 git clone https://github.com/username/username.github.io
 ```
-- Clone ghpages-fileserver into your github-pages folder
+- Clone ghpages-fileserver
 ```bash
-git clone https://github.com/Karlheinzniebuhr/ghpages-fileserver username.github.io
-cd username.github.io
+git clone https://github.com/Karlheinzniebuhr/ghpages-fileserver
+```
+- Move or copy content to username.github.io folder  
+```bash
+cp -r ghpages-fileserver/ username.github.io/
 ```
 - Start Jekyll
 ```bash
+cd username.github.io
 jekyll serve
 ```
 - Open Webbrowser at [http://localhost:4000/](http://localhost:4000/)
