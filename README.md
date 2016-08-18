@@ -2,7 +2,7 @@
 A simple fileserver which runs on top of Github pages
 
 ## DEMO
-[http://karlheinzniebuhr.github.io/resources.html](http://karlheinzniebuhr.github.io/resources.html)
+[http://karlheinzniebuhr.github.io/resources.html](http://karlheinzniebuhr.github.io/resources/)
 
 ## Get started
 - Setup your Github page here https://pages.github.com/ 
