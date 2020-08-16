@@ -1,4 +1,4 @@
-# ghpages-fileserver
+# Github Pages Fileserver
 A simple fileserver which runs on top of Github pages
 
 ## DEMO
