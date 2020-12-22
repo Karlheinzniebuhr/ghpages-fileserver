@@ -31,3 +31,7 @@ jekyll serve
 
 ## Important
 Github will complain if you host binaries and/or very large files. If you upload Binaries compress (Zip) them first and try to not abuse with file size. 
+
+CON EL APOYO DE
+
+![SOTIC](http://www.sotic.org.py/images/logosotic.png)
